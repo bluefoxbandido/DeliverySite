@@ -8,7 +8,3 @@ display: flex;
 justify-content: space-around;
 padding: 60px 100px;
 }
-
-.todos:hover {
-cursor: pointer;
-}
