@@ -1,0 +1,25 @@
+User story 1
+****************************
+Tom works for a company that is having a baby shower for an employee. The company is not a very 
+large companyand is looking for a Pizza delivery company to cater or deliver to them. They are 
+searching for something local. They googled a local company and came across our company. They 
+were able to easily access our website by clicking the link in the search engine they were using.
+As they entered the website they could see a few options. The options were to sign in as a guest or 
+browse the options that the company provided. As the user signed in they were greeted with a page
+that displayed several pizza product photos in the background and several images on the page.The 
+customer can then choose to view the cart or place an order for pizza. After placing the final
+order the customer can then checkout and pay for the pizza with card info and have the pizza delivered
+to a specific location.
+
+User story 2
+*******************************
+Suzy and Bobby are having a party and wishing to have several pizzas delivered but cannot find a
+pizza place to deliver more than 10 pizzas to the party. After several minutes of looking they finally 
+come across {name}. After navigating to the page they are greeted with pictures of some of there favorite pies.
+They also are excited at the fact that there are notifications about the build a pizza option.
+now that they have decided to order from the site they notice that the prices are lower than most
+other delivery areas  and that they can order as many pizzas as they want. After deciding how many and
+are told the cost they were easily able to see the option to checkout and buy them. They have also
+noticed that the company accepts many forms of cards to pay with including some of the most common 
+kinds of credit cards. They found that the information was easily put into the system and could
+purchase the order quiet easily. All and all they were very satisfied with the app.
