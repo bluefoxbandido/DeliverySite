@@ -13,4 +13,12 @@ const paymentInformation = (cardType, cardholderName, cardNumber, exp, cvv) => {
     this.cvv = cvv;
 }
 
-const cart = (product)
+const product = (name, size, toppings, price) => {
+    this.name = name;
+    this.size = size;
+    this.toppings = toppings;
+    this.price = price;
+
+}
+
+const pepperoniPizza = product("Pepperoni", "Large", "Pepperoni", )
