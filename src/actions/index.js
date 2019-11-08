@@ -21,4 +21,4 @@ const product = (name, size, toppings, price) => {
 
 }
 
-const pepperoniPizza = product("Pepperoni", "Large", "Pepperoni", )
+const pepperoniPizza = product("Pepperoni", "Large", "Pepperoni", 9.99);
