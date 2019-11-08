@@ -1,0 +1,61 @@
+
+body {
+    background-image: url("../static/assets/red_brick_wall.jpg");
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 12;
+    grid-template-rows: 12;
+}
+
+.top-sectionWrapper {
+    display: grid;
+    grid-template-columns: 1fr, 3fr, 1fr;
+}
+
+.top-section {
+    flex-direction: right;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 100px;
+}
+
+.todos:hover {
+    cursor: pointer;
+}
+
+.left-column {
+   margin-right: 70px;
+   width: 35px;
+   align-content: left;
+  
+}
+
+.middle-column {
+    font-style: italic;
+    font-size: 50px;
+    color: aliceblue;
+    margin-left: 60px;
+}
+
+.right-column {
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 80px;
+}
+
+.right-column a {
+text-decoration: none;
+color: aliceblue;
+
+}
+
+h1 {
+    font-style: italic;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 30px;
+    color: aliceblue;
+}

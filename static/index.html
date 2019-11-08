@@ -8,15 +8,60 @@
     <link rel="stylesheet" href="../styles/homepage.css">
 </head>
 
-<body>
+<<<<<<< HEAD
+=======
 
-    <div class="top-section">
-        <div class="left-column">LOGO</div>
-        <div class="middle-column">BANNER IS HERE</div>
-        <div class="right-column">SHOPPING CART HERE</div>
+>>>>>>> e7809da322f0232b6b833e28837763b5b2ef1030
+<body>
+    
+    <div class="top-sectionWrapper">
+        <div class="top-section">
+            <div class="left-column">
+                <a href="index.html"><img src="../static/assets/imgs/build-you-own_0.png" width="100"></a>
+            </div>
+
+            <div class="middle-column">
+                Bottega Pizza Factory
+            </div>
+
+            <div class="right-column">
+                <a href="Shopping_Cart.html">Order Here</a>
+            </div>
+        </div>    
     </div>
     
-    <div class="middle-section">PICTUREE PIZZA HERE</div>
+    <div class="middle-section">
+
+        <div class="todos">
+            <h2>Pending Todos</h2>
+            <ul>
+                <li class="todoItem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, animi.</li>
+                <li class="todoItem">Numquam dolor quo alias nam vel voluptates magni magnam quisquam.</li>
+                <li class="todoItem">Recusandae eaque quisquam facere ab reprehenderit cupiditate magni placeat quis?</li>
+                <li class="todoItem">Expedita asperiores nam saepe voluptatem, nostrum aliquid debitis quam recusandae.</li>
+                <li class="todoItem">Quaerat velit deserunt reprehenderit, vel placeat impedit accusamus non, deleniti!</li>
+            </ul>
+            </div>
+                
+            <h2>Completed Todos</h2>
+            <ul class="completedTodoWrapper">
+            <div class="completed"></div>
+            </ul>
+    
+    </div>
     
 </body>
+
+<script>
+    const todos = document.querySelectorAll('.todoItem');
+    const completedTodos = document.querySelector('.completed');
+    const completedTodoWrapper = document.querySelector('.completedTodoWrapper');
+      
+    todos.forEach(todo => todo.addEventListener('click', (event) => {
+    let completedTodo = document.createElement('li');
+    let todoContent = document.createTextNode(todo.textContent);
+    completedTodo.appendChild(todoContent);
+    completedTodoWrapper.insertBefore(completedTodo, completedTodos);
+}))
+</script>
 </html>
