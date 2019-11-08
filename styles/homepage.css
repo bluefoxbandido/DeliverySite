@@ -13,10 +13,14 @@ body {
 }
 
 .top-section {
-    flex-direction: right;
-    display: flex;
-    justify-content: space-between;
-    padding: 60px 100px;
+background-color: rgb(174, 200, 255);
+display: flex;
+justify-content: space-around;
+padding: 60px 100px;
+flex-direction: right;
+display: flex;
+justify-content: space-between;
+padding: 60px 100px;
 }
 
 .todos:hover {
@@ -58,4 +62,4 @@ h1 {
 h2 {
     font-size: 30px;
     color: aliceblue;
-}
+
